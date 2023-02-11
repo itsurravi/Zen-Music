@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.github.pakka_papad.home.HomeFragment"
+        android:name="com.ravisharma.zen_music.home.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_nowPlaying"
@@ -47,7 +47,7 @@
     </fragment>
     <fragment
         android:id="@+id/nowPlaying"
-        android:name="com.github.pakka_papad.nowplaying.NowPlayingFragment"
+        android:name="com.ravisharma.zen_music.nowplaying.NowPlayingFragment"
         android:label="NowPlaying" >
         <action
             android:id="@+id/action_nowPlaying_to_selectPlaylistFragment"
@@ -55,7 +55,7 @@
     </fragment>
     <fragment
         android:id="@+id/collectionFragment"
-        android:name="com.github.pakka_papad.collection.CollectionFragment"
+        android:name="com.ravisharma.zen_music.collection.CollectionFragment"
         android:label="CollectionFragment" >
         <action
             android:id="@+id/action_collectionFragment_to_selectPlaylistFragment"
@@ -66,13 +66,13 @@
             app:popExitAnim="@anim/exit_to_bottom"/>
         <argument
             android:name="collectionType"
-            app:argType="com.github.pakka_papad.collection.CollectionType"
+            app:argType="com.ravisharma.zen_music.collection.CollectionType"
             app:nullable="true"
             android:defaultValue="@null" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.github.pakka_papad.settings.SettingsFragment"
+        android:name="com.ravisharma.zen_music.settings.SettingsFragment"
         android:label="SettingsFragment" >
         <action
             android:id="@+id/action_settingsFragment_to_restoreFragment"
@@ -84,7 +84,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.github.pakka_papad.splash.SplashFragment"
+        android:name="com.ravisharma.zen_music.splash.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -100,7 +100,7 @@
     </fragment>
     <fragment
         android:id="@+id/onBoardingFragment"
-        android:name="com.github.pakka_papad.onboarding.OnBoardingFragment"
+        android:name="com.ravisharma.zen_music.onboarding.OnBoardingFragment"
         android:label="OnBoardingFragment" >
         <action
             android:id="@+id/action_onBoardingFragment_to_homeFragment"
@@ -112,7 +112,7 @@
     </fragment>
     <fragment
         android:id="@+id/selectPlaylistFragment"
-        android:name="com.github.pakka_papad.select_playlist.SelectPlaylistFragment"
+        android:name="com.ravisharma.zen_music.select_playlist.SelectPlaylistFragment"
         android:label="SelectPlaylistFragment" >
         <argument
             android:name="songLocations"
@@ -120,7 +120,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.github.pakka_papad.search.SearchFragment"
+        android:name="com.ravisharma.zen_music.search.SearchFragment"
         android:label="SearchFragment" >
         <action
             android:id="@+id/action_searchFragment_to_collectionFragment"
@@ -132,6 +132,6 @@
     </fragment>
     <fragment
         android:id="@+id/restoreFragment"
-        android:name="com.github.pakka_papad.restore.RestoreFragment"
+        android:name="com.ravisharma.zen_music.restore.RestoreFragment"
         android:label="RestoreFragment" />
 </navigation>

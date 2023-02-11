@@ -14,11 +14,11 @@ plugins {
 }
 
 android {
-    namespace = "com.github.pakka_papad"
+    namespace = "com.ravisharma.zen_music"
     compileSdk = Api.compileSdk
 
     defaultConfig {
-        applicationId = "com.github.pakka_papad"
+        applicationId = "com.ravisharma.zen_music"
         minSdk = Api.minSdk
         targetSdk = Api.targetSdk
         versionCode = AppVersion.Code

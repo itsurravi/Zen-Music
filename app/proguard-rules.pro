@@ -23,6 +23,6 @@
 -keepclassmembers class * implements android.os.Parcelable {
     static ** CREATOR;
 }
--keep class com.github.pakka_papad.collection.CollectionType
+-keep class com.ravisharma.zen_music.collection.CollectionType
 
 -keep class * extends com.google.protobuf.GeneratedMessageLite { *; }
